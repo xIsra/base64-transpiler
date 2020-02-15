@@ -1,5 +1,6 @@
 {
   "name": "base64-transpiler",
+  "homepage": "https://xisra.github.io/base64-transpiler",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

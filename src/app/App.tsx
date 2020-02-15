@@ -15,11 +15,6 @@ class App extends Component {
     }
   }
 
-  // handleBitmap = (bpm:ImageBitmap)=>{
-  //   if(!this.canvasContext) return;
-  //   this.canvasContext.putImageData()
-  // }
-
   render() {
     const { data, loading } = this.state;
     return (
@@ -42,7 +37,6 @@ class App extends Component {
                   if (fileReader.result instanceof ArrayBuffer) {
                     const byteLength = fileReader.result.byteLength
                     const uintBuffer = new Uint8ClampedArray(fileReader.result);
-                    // const canvas = this.canvasRef.current;
 
                     this.setState({
                       loading: false,
